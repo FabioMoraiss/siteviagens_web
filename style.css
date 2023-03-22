@@ -54,3 +54,12 @@ header nav p {
     text-align: center;
 
 }
+
+.header-content h1 {
+    margin-bottom: 10px;
+    font-size: 3.5rem;
+    /* parte da borda para o texto *NÃO ESTÁ FUNCIONANDO* */
+    color: #000;
+    -webkit-text-stroke-color: #FFF;
+    -webkit-stoke-width: 10px;
+}
