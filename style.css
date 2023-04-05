@@ -98,3 +98,57 @@ header nav p {
     margin: 24px;
     position: relative;
 }
+
+.pacotes .card-content {
+    padding: 0 15px;
+}
+
+.pacotes .card-content ul {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+}
+
+.pacotes .card-content ul li {
+    font-size: 0.6rem;
+    display: flex;
+    align-items: center;
+    margin:  3px 0;
+    color: gray;
+    font-size: bold;
+}
+
+.pacotes .card-content ul li svg{
+    width: 16px;
+    height: 16px;
+    margin-right: 5px;
+}
+
+.pacotes .card-content h1 {
+    font-size: 1.2rem;
+}
+
+.pacotes .card .card-tag-top {
+    position: absolute;
+    right: 0;
+    top: 15px;
+    background: #f19b39;
+    border: 8px 0 0 8px;
+    padding: 5px 10px;
+}
+
+.pacotes .card .card-tag-bottom {
+    position: absolute;
+    left: 0;
+    top: 160px;
+    background: #1d61dd;
+    border: 8px 0 0 8px;
+    padding: 5px 10px;
+}
+
+.pacotes .card .card-tag p {
+    margin: 0px;
+    font-size: 0.8rem;
+    color: white;
+    font-weight: bold;
+}
