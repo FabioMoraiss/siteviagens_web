@@ -180,7 +180,7 @@ header nav p {
     margin: 0 20px;
 }
 
-.servicos .card .svg{
+.servicos .card svg {
     width: 60px;
     height: 60px;
     margin: 50px;
@@ -188,7 +188,8 @@ header nav p {
 
 .servicos .card svg:hover {
     stroke: #1d61dd;
-    transform: scale(1.1);
+    stroke: #f19b39;
+    transform: scale(2.2);
 }
 
 .servicos .card h3{
@@ -209,6 +210,7 @@ header nav p {
 .contatos {
     background-color: red;
     height: 600px;
+    
 }
 
 .contatos .contatos-tittle{
@@ -218,13 +220,37 @@ header nav p {
     font-size: 3rem;
 }
 
-.contatos .informacoes{
-    
+.contatos .informacoes li{
+    list-style: none;
+    display:flex;
+    margin-top: 25px;
+    max-width: 950px;
+    justify-content: center;
+    margin: 20px auto;   
 }
 
-.zz{
-    list-style:  none;
+.contatos .informacoes .email svg{
+    color: white;
+}
+
+.contatos .informacoes .face svg{
+    color: blue;
+}
+
+.contatos .informacoes .twitter svg{
+    color: #00ffff;
+}
+
+.contatos .informacoes .insta svg{
+    color: orange;
+}
+
+.contatos .informacoes .fone svg{
+    color: green;
+}
+
+.contatos .informacoes .desenvolvido {
     display: flex;
-    flex-direction: column;
     justify-content: center;
 }
+
